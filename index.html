@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    
+        <!-- Moralis SDK CDN-->
+        <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+        <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+        <link rel="stylesheet" href="styles.css">
+            <!-- Web 3 CDN-->
+        
+        
+    
+        <style>
+          html, body, pre, code, kbd, samp {
+              font-family: "Press Start 2P";
+          }
+        </style>
+
+        
+        <title>dMSGRv01</title>
+    </head>
+<body>
+    <!-- Connecting to Metamask -->
+        <div class="nes-container with-title is-centered">
+            <p class="title">dMSGRv01</p>
+            <button type="button" class="nes-btn is-success" id="btn-login">Connect Wallet</button>
+            <button type="button" class="nes-btn is-error" id="btn-logout">Disconnect Wallet</button>
+        </div>
+    <!-- End Connecting to Metamask -->
+        <br>
+
+
+    <!-- Create Chat Room -->
+        <div class="nes-container is-dark with-title is-centered">
+            <label for="name_field">CREATE GROUP NAME</label>
+
+            <input type="text" class="nes-input" id="group-name-text" placeholder="Enter Group Name">
+
+            <button type="button" class="nes-btn is-primary" id="btn-new-group-chat">Create Room</button>
+    <!-- End Create Chat Room -->
+        </div>
+        <br>
+
+        <div class="nes-container is-dark with-title is-centered">
+            <label for="name_field">JOIN GROUP ROOM</label>
+            <div class="container" id ="chatRooms">
+                <ul id="roomList"></ul>
+            </div>
+
+    <!-- End Create Chat Room -->
+        </div>
+
+
+    
+    <script src="js/mm.js"></script>
+</body>
+</html>

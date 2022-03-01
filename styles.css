@@ -1,0 +1,11 @@
+* {
+    margin: 20px;
+    padding: 0;
+}
+
+.animate__animated.animate__pulse {
+    --animate-duration: 2s;
+    color: red;
+    
+  }
+
