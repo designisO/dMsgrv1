@@ -1,6 +1,6 @@
  // connect to Moralis server
- Moralis.initialize("aYe2UDCqRqgpINaRgIRTV8MGhilipR5TfSlWL2Cr");
- Moralis.serverURL = "https://6nfrimixgufy.usemoralis.com:2053/server";
+ Moralis.initialize("#");
+ Moralis.serverURL = "#";
 
  // add from here down
  async function login() {
